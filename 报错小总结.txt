@@ -1,0 +1,24 @@
+①
+“/”应用程序中的服务器错误。
+Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
+
+序列化，反序列化错误
+
+②
+System.Data.SqlClient.SqlException:“从数据类型 nvarchar 转换为 int 时出错。”
+
+没有给选中的行接值，接收Id值  ，例如：value="@item.Id"
+
+③
+System.InvalidOperationException:“不存在具有键“Gid”的“IEnumerable<SelectListItem>”类型的 ViewData 项。”
+
+控制器方法中没有绑定下拉框
+
+④
+System.NullReferenceException:“未将对象引用设置到对象的实例。”
+
+Gimg 是 null。
+
+
+MVC，上传图片时，没有写enctype="multipart/form-data"属性，或者
+HttpPostedFileBase 类型名与数据库图片字段名不一致（同名原则）。
