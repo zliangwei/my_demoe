@@ -2,7 +2,7 @@
 “/”应用程序中的服务器错误。
 Unexpected character encountered while parsing value: S. Path '', line 0, position 0.
 
-序列化，反序列化错误
+序列化
 
 ②
 System.Data.SqlClient.SqlException:“从数据类型 nvarchar 转换为 int 时出错。”
